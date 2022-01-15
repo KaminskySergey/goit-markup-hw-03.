@@ -307,6 +307,7 @@ cursor: pointer;
 color: var(--brand-black);
 border-radius: 4px;
 font-size: inherit;
+border: 1px solid transparent;
 }
 .services-btn:hover, .services-btn:focus{
     color:var(--brand-white);
@@ -315,13 +316,21 @@ font-size: inherit;
 .services-btn:active{
     color: var(--brand-white);
 }
+.services-list{
+    margin-bottom: 42px;
+}
+.services-img{
+    margin-bottom: 20px;
+}
 .services-title{
     font-weight:700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--brand-black);
+    margin-bottom: 4px;
 }
+
 
 .services-text {
     font-size: 16px;
