@@ -440,7 +440,7 @@ letter-spacing: 0.03em;
     margin-left: 30px;
 }
 
-.services-btn{
+.services-btn {
 font-family: Roboto;
 font-weight: 500;
 background-color: var(--brand-background-team);
@@ -449,6 +449,7 @@ color: var(--brand-black);
 border-radius: 4px;
 font-size: inherit;
 border: 1px solid transparent;
+padding: 4px 22px;
 }
 .services-btn:hover, .services-btn:focus{
     color:var(--brand-white);
@@ -456,6 +457,10 @@ border: 1px solid transparent;
 }
 .services-btn:active{
     color: var(--brand-white);
+}
+.services-btn{
+padding: 6px 22px;
+
 }
 .services-cards{
     display: flex;
