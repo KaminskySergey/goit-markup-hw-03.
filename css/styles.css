@@ -243,10 +243,10 @@ border:1px solid transparent;
 padding: 10px 32px;
 }
 .hero-btn:hover, .hero-btn:focus{
-    color: var(--brand-background);
+    color:#188CE8;
 }
 .hero-btn:active{
-    color:var(--brand-background);
+    color:#188CE8;
 }
 /* ////////////////////special /////////////////////////*/
 .special{
@@ -455,6 +455,7 @@ border-radius: 4px;
 font-size: inherit;
 border: 1px solid transparent;
 padding: 4px 22px;
+
 }
 .services-btn:hover, .services-btn:focus{
     color:var(--brand-white);
