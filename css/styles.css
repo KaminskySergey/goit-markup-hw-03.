@@ -399,7 +399,7 @@ footer{
     color: var(--brand-white);
 }
 .footer-list{
-    margin-bottom: -9px;
+    
 }
 .footer-item-adress{
  font-size: 14px;
@@ -411,6 +411,9 @@ margin-bottom: 9px;
 }
 .footer-item{
     font-style: normal;
+    
+}
+.footer-item:not(:last-child){
     margin-bottom: 9px;
 }
 .footer .link-logo{
